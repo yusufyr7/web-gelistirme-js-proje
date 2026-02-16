@@ -1,73 +1,27 @@
-# React + TypeScript + Vite
+# 📦 Mini Stok Takip Sistemi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Web Geliştirme eğitimi kapsamında modern JavaScript ve React teknolojileri kullanılarak geliştirilmiş dinamik bir stok takip uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🌍 Canlı Demo
+Projeyi canlı olarak incelemek için tıklayın: [Netlify Üzerinden Görüntüle](https://warm-chebakia-c16ac0.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Proje Özellikleri (CRUD İşlemleri)
+Eğitim yönergesinde istenen tüm isterler eksiksiz olarak projeye entegre edilmiştir:
+- **Ekleme (Create):** Yeni ürünler; ad, fiyat ve stok bilgisiyle sisteme eklenebilir.
+- **Listeleme (Read):** Eklenen ürünler jilet gibi tasarlanmış dinamik bir tabloda görüntülenir. Kritik stoklar (10'un altı) kırmızı ile vurgulanır.
+- **Güncelleme (Update):** Var olan ürünlerin tüm bilgileri tek tıkla forma çekilip güncellenebilir.
+- **Silme (Delete):** Ürünler sistemden anında kaldırılabilir.
+- **Kalıcı Veri (LocalStorage):** Sayfa yenilense veya kapatılıp açılsa dahi tüm veriler tarayıcı hafızasında güvenle saklanır.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
+- **ReactJS (Vite)**
+- **TypeScript (Arayüz / Interface kullanımı)**
+- **Tailwind CSS (Modern ve Responsive Tasarım)**
+- **LocalStorage API (Veri Yönetimi)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Lokalde Çalıştırma (Kurulum)
+Projeyi kendi bilgisayarınızda test etmek isterseniz:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Repoyu klonlayın:
+```bash
+git clone [https://github.com/yusufyr7/web-gelistirme-js-proje.git](https://github.com/yusufyr7/web-gelistirme-js-proje.git)
