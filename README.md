@@ -1,11 +1,11 @@
-# 📦 Mini Stok Takip Sistemi
+ Mini Stok Takip Sistemi
 
 Bu proje, Web Geliştirme eğitimi kapsamında modern JavaScript ve React teknolojileri kullanılarak geliştirilmiş dinamik bir stok takip uygulamasıdır.
 
-## 🌍 Canlı Demo
+## Canlı Demo
 Projeyi canlı olarak incelemek için tıklayın: [Netlify Üzerinden Görüntüle](https://warm-chebakia-c16ac0.netlify.app)
 
-## 🚀 Proje Özellikleri (CRUD İşlemleri)
+##  Proje Özellikleri (CRUD İşlemleri)
 Eğitim yönergesinde istenen tüm isterler eksiksiz olarak projeye entegre edilmiştir:
 - **Ekleme (Create):** Yeni ürünler; ad, fiyat ve stok bilgisiyle sisteme eklenebilir.
 - **Listeleme (Read):** Eklenen ürünler jilet gibi tasarlanmış dinamik bir tabloda görüntülenir. Kritik stoklar (10'un altı) kırmızı ile vurgulanır.
@@ -13,13 +13,13 @@ Eğitim yönergesinde istenen tüm isterler eksiksiz olarak projeye entegre edil
 - **Silme (Delete):** Ürünler sistemden anında kaldırılabilir.
 - **Kalıcı Veri (LocalStorage):** Sayfa yenilense veya kapatılıp açılsa dahi tüm veriler tarayıcı hafızasında güvenle saklanır.
 
-## 🛠️ Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 - **ReactJS (Vite)**
 - **TypeScript (Arayüz / Interface kullanımı)**
 - **Tailwind CSS (Modern ve Responsive Tasarım)**
 - **LocalStorage API (Veri Yönetimi)**
 
-## 💻 Lokalde Çalıştırma (Kurulum)
+##  Lokalde Çalıştırma (Kurulum)
 Projeyi kendi bilgisayarınızda test etmek isterseniz:
 
 1. Repoyu klonlayın:
