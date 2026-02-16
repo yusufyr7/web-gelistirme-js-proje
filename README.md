@@ -1,4 +1,4 @@
- Mini Stok Takip Sistemi
+## Mini Stok Takip Sistemi
 
 Bu proje, Web Geliştirme eğitimi kapsamında modern JavaScript ve React teknolojileri kullanılarak geliştirilmiş dinamik bir stok takip uygulamasıdır.
 
